@@ -27,14 +27,14 @@
             }
         },
         "CloudShopDownloadUrl": {
-            "defaultValue": "https://raw.githubusercontent.com/opsgility/lab-support-public/master/cloud-shop-no-dsc/CloudShop.zip",
+            "defaultValue": "https://raw.githubusercontent.com/kloudynetklassrooms/lab-support-public/master/cloud-shop-no-dsc/CloudShop.zip",
             "type": "String",
             "metadata": {
                 "description": "Zip that contains cloud shop sample"
             }
         },
         "CloudShopInstallscriptUrl": {
-            "defaultValue": "https://raw.githubusercontent.com/opsgility/lab-support-public/master/cloud-shop-no-dsc/deploy-cloudshop.ps1",
+            "defaultValue": "https://raw.githubusercontent.com/kloudynetklassrooms/lab-support-public/master/cloud-shop-no-dsc/deploy-cloudshop.ps1",
             "type": "String",
             "metadata": {
                 "description": "script to execute"
@@ -66,14 +66,14 @@
         "WindowsImagePublisher": "MicrosoftWindowsServer",
         "WindowsImageOffer": "WindowsServer",
         "WebAvailabilitySetName": "WebAVSet",
-        "WebOSDiskName": "WebOSDisk",
-        "WebVM-2OSDiskName": "WebOSDisk2",
+        "WebOSDiskName": "vm1WebOSDisk",
+        "WebVM-2OSDiskName": "vm2WebOSDisk",
         "WebVmSize": "Standard_D2s_v3",
         "WebStorageAccountContainerName": "vhds",
         "WebNicName": "[concat(parameters('WebVMName'), 'NetworkInterface')]",
         "scriptFolder": ".",
-        "webipName": "webip",
-        "webip2Name": "webip2",
+        "webipName": "vm1webip",
+        "webip2Name": "vm2webip2",
         "lbipName": "cloudshopip",
         "avsetname": "WebAVSet",
         "WebVM-2StorageAccountContainerName": "vhds",
